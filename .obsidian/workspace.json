@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "21f993d9f4a21fa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d464a2c6cfefa780",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e50eb1f325470013",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "451723e49ff8ce5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "09fbba6b77b88895",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0552a6d441208a7d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bd7d1ac7c666f475",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83422babc8c06b28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0f22eb8063120b92",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdcb08d1250218db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fdf0142ee45acdd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Attacking Common Services/Attacking DNS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Attacking DNS"
+            }
+          },
+          {
+            "id": "f83f6fee1d43013a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Attacking Common Services/Attacking DNS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Attacking DNS"
+            }
+          },
+          {
+            "id": "133a545d8a436314",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e5f32bf19a353af1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Attacking Common Services/Attacking DNS.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Attacking DNS"
+            }
+          },
+          {
+            "id": "6520b77c75da8ac3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e50eb1f325470013",
+  "lastOpenFiles": [
+    "sqlmap/Advanced Database Enumeration.md",
+    "XSS/XSS Prevention.md",
+    "XSS/Session Hijacking.md",
+    "XSS/Phishing.md",
+    "File Inclusion/Local FIle Inclusion.md",
+    "File Inclusion/Intro to File Inclusion.md",
+    "sqlmap/OS Exploitation.md",
+    "File Inclusion",
+    "sqlmap/Bypassing Web Application Protections.md",
+    "sqlmap/Database Enumeration.md",
+    "sqlmap/Attack Tuning.md",
+    "sqlmap/Running SQLMap on an HTTP Request.md",
+    "sqlmap/Handling SQLMap Errors.md",
+    "sqlmap/Starters.md",
+    "sqlmap/SQLMap Output Description.md",
+    "sqlmap/SQLMap Overview.md",
+    "Login Bruteforcing/Custom Wordlists.md",
+    "sqlmap",
+    "Login Bruteforcing/Web Services.md",
+    "Login Bruteforcing/Untitled 1.md",
+    "Login Bruteforcing/Medusa.md",
+    "FFUF Fuzzing/Value Fuzzing.md",
+    "FFUF Fuzzing/Parameter Fuzzing - POST.md",
+    "FFUF Fuzzing/VHost Fuzzing.md",
+    "FFUF Fuzzing/Filtering Results.md",
+    "XSS/XSS Discovery.md",
+    "FFUF Fuzzing/Parameter Fuzzing - GET.md",
+    "XSS/Defacing.md",
+    "XSS",
+    "Linux PE",
+    "Login Bruteforcing",
+    "SQLi Fundamentals",
+    "FFUF Fuzzing",
+    "Web Proxies",
+    "AD Enumeration and Attacks",
+    "Getting Started",
+    "Screenshot 2024-12-23 at 4.29.03 PM.png",
+    "Screenshot 2024-12-24 at 1.39.21 PM.png",
+    "Screenshot 2024-12-24 at 1.39.00 PM.png",
+    "Screenshot 2024-12-23 at 5.00.48 PM.png",
+    "Untitled.canvas"
+  ]
+}
