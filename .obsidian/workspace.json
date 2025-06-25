@@ -11,10 +11,14 @@
             "id": "e50eb1f325470013",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -172,6 +176,7 @@
   },
   "active": "e50eb1f325470013",
   "lastOpenFiles": [
+    "README.md",
     "sqlmap/Advanced Database Enumeration.md",
     "XSS/XSS Prevention.md",
     "XSS/Session Hijacking.md",
@@ -199,7 +204,6 @@
     "FFUF Fuzzing/Filtering Results.md",
     "XSS/XSS Discovery.md",
     "FFUF Fuzzing/Parameter Fuzzing - GET.md",
-    "XSS/Defacing.md",
     "XSS",
     "Linux PE",
     "Login Bruteforcing",
