@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d464a2c6cfefa780",
+        "id": "2b9403bb2f53eec2",
         "type": "tabs",
         "children": [
           {
-            "id": "e50eb1f325470013",
+            "id": "9bf4acd1a1377523",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "File Inclusion/Basic Bypasses.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Basic Bypasses"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0f22eb8063120b92",
@@ -174,15 +175,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e50eb1f325470013",
+  "active": "9bf4acd1a1377523",
   "lastOpenFiles": [
+    "File Inclusion/Local File Inclusion.md",
+    "File Inclusion/Basic Bypasses.md",
+    "File Inclusion/Intro to File Inclusion.md",
+    "XSS/XSS Prevention.md",
+    "XSS/XSS Discovery.md",
     "README.md",
     "sqlmap/Advanced Database Enumeration.md",
-    "XSS/XSS Prevention.md",
     "XSS/Session Hijacking.md",
     "XSS/Phishing.md",
-    "File Inclusion/Local FIle Inclusion.md",
-    "File Inclusion/Intro to File Inclusion.md",
     "sqlmap/OS Exploitation.md",
     "File Inclusion",
     "sqlmap/Bypassing Web Application Protections.md",
@@ -202,8 +205,6 @@
     "FFUF Fuzzing/Parameter Fuzzing - POST.md",
     "FFUF Fuzzing/VHost Fuzzing.md",
     "FFUF Fuzzing/Filtering Results.md",
-    "XSS/XSS Discovery.md",
-    "FFUF Fuzzing/Parameter Fuzzing - GET.md",
     "XSS",
     "Linux PE",
     "Login Bruteforcing",
