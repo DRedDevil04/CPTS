@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XSS/Session Hijacking.md",
+                "file": "Linux PE/Environment Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session Hijacking"
+              "title": "Environment Enumeration"
+            }
+          },
+          {
+            "id": "031525bdf55538bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Services & Internals Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Services & Internals Enumeration"
+            }
+          },
+          {
+            "id": "927cf5c31def43fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux PE/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kubernetes"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,8 +203,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9bf4acd1a1377523",
+  "active": "927cf5c31def43fc",
   "lastOpenFiles": [
+    "Linux PE/Wildcard Abuse.md",
+    "Linux PE/Path Abuse.md",
+    "Linux PE/Kubernetes.md",
+    "Linux PE/Docker.md",
+    "Linux PE/Containers.md",
+    "Linux PE/Cron Job Abuse.md",
+    "Linux PE/Vulnerable Services.md",
+    "Linux PE/Capabilities.md",
+    "Untitled.md",
+    "Linux PE/Privileged Groups.md",
+    "Linux PE/Sudo Rights Abuse.md",
+    "Linux PE/Special Permissions.md",
+    "Linux PE/Escaping Restricted Shells.md",
+    "Linux PE/Credential Hunting.md",
+    "Linux Services & Internals Enumeration.md",
+    "Linux PE/Environment Enumeration.md",
+    "Linux PE/Introduction.md",
+    "XSS/Session Hijacking.md",
     "XSS/Reflected XSS.md",
     "XSS/Introduction.md",
     "XSS/Phishing.md",
@@ -184,25 +231,7 @@
     "Basics/MSRPC.md",
     "Footprinting/SMTP.md",
     "Password Attacks/Attacking SAM.md",
-    "Vulnerability Assessment/Scanning Issues.md",
-    "Vulnerability Assessment/OpenVAS Intro.md",
-    "Getting Started/Nibbles - Web Footprinting.md",
-    "Footprinting/Oracle TNS.md",
-    "Footprinting/MySQL.md",
-    "File Inclusion/Basic Bypasses.md",
-    "File Inclusion/Local File Inclusion.md",
-    "File Inclusion/Intro to File Inclusion.md",
-    "XSS/XSS Prevention.md",
-    "XSS/XSS Discovery.md",
-    "README.md",
-    "sqlmap/Advanced Database Enumeration.md",
-    "XSS/Session Hijacking.md",
-    "sqlmap/OS Exploitation.md",
     "File Inclusion",
-    "sqlmap/Bypassing Web Application Protections.md",
-    "sqlmap/Database Enumeration.md",
-    "sqlmap/Attack Tuning.md",
-    "sqlmap/Running SQLMap on an HTTP Request.md",
     "sqlmap",
     "XSS",
     "Linux PE",
