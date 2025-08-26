@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2b9403bb2f53eec2",
+        "id": "4635085a7c420a3b",
         "type": "tabs",
         "children": [
           {
-            "id": "9bf4acd1a1377523",
+            "id": "cc7f69b1c802abc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux PE/Environment Enumeration.md",
+                "file": "Command Injection/Evasion Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Environment Enumeration"
-            }
-          },
-          {
-            "id": "031525bdf55538bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Services & Internals Enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux Services & Internals Enumeration"
-            }
-          },
-          {
-            "id": "927cf5c31def43fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux PE/Python Library Hijacking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python Library Hijacking"
+              "title": "Evasion Tools"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,48 +175,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "927cf5c31def43fc",
+  "active": "cc7f69b1c802abc6",
   "lastOpenFiles": [
-    "Linux PE/Shared Object Hijacking.md",
-    "Linux PE/Python Library Hijacking.md",
-    "Linux PE/Shared Libraries.md",
-    "Linux Services & Internals Enumeration.md",
-    "Linux PE/Kernel Exploits.md",
-    "Untitled.canvas",
-    "2025-08-13.md",
-    "Linux PE/Miscellaneous Techniques.md",
-    "Linux PE/Logrotate.md",
+    "Command Injection/Advanced Command Obfuscation.md",
+    "Command Injection/Evasion Tools.md",
+    "Command Injection/Bypassing Other Blacklisted Characters.md",
+    "Command Injection/Bypassing Blacklisted Commands.md",
+    "Web Attacks/Intro to Web Attacks.md",
+    "Web Attacks",
+    "Command Injection/Bypassing Space Filters.md",
+    "Command Injection/Identifying Filters.md",
+    "Command Injection/Other Injection Operators.md",
+    "Command Injection/Injecting Commands.md",
+    "Command Injection/Detection.md",
     "Linux PE/Kubernetes.md",
-    "Linux PE/Wildcard Abuse.md",
-    "Linux PE/Path Abuse.md",
-    "Linux PE/Docker.md",
-    "Linux PE/Containers.md",
-    "Linux PE/Cron Job Abuse.md",
-    "Linux PE/Vulnerable Services.md",
-    "Linux PE/Capabilities.md",
-    "Untitled.md",
-    "Linux PE/Privileged Groups.md",
-    "Linux PE/Sudo Rights Abuse.md",
-    "Linux PE/Special Permissions.md",
-    "Linux PE/Escaping Restricted Shells.md",
-    "Linux PE/Credential Hunting.md",
-    "Linux PE/Environment Enumeration.md",
+    "Linux PE/Logrotate.md",
     "Linux PE/Introduction.md",
-    "XSS/Session Hijacking.md",
-    "XSS/Reflected XSS.md",
+    "Login Bruteforcing/Basic HTTP Auth.md",
+    "Login Bruteforcing/Hybrid Attacks.md",
+    "Login Bruteforcing/Custom Wordlists.md",
+    "Login Bruteforcing/Hydra.md",
+    "Login Bruteforcing/Introduction.md",
+    "Login Bruteforcing/Login Forms.md",
+    "Login Bruteforcing/Password Security Fundamentals.md",
+    "Login Bruteforcing/Medusa.md",
+    "Login Bruteforcing/Web Services.md",
+    "Login Bruteforcing/Untitled 1.md",
+    "Nmap Network Enumeration/Firewall And IDS-IPS Prevention.md",
+    "sqlmap/Advanced Database Enumeration.md",
+    "sqlmap/Database Enumeration.md",
+    "File Upload Attacks",
+    "Command Injection",
+    "File Inclusion/Untitled",
+    "Untitled.canvas",
+    "Screenshot 2024-12-24 at 1.39.21 PM.png",
+    "Screenshot 2024-12-23 at 5.00.48 PM.png",
     "File Inclusion",
     "sqlmap",
     "XSS",
     "Linux PE",
     "Login Bruteforcing",
     "SQLi Fundamentals",
-    "FFUF Fuzzing",
-    "Web Proxies",
-    "AD Enumeration and Attacks",
-    "Getting Started",
     "Screenshot 2024-12-23 at 4.29.03 PM.png",
-    "Screenshot 2024-12-24 at 1.39.21 PM.png",
-    "Screenshot 2024-12-24 at 1.39.00 PM.png",
-    "Screenshot 2024-12-23 at 5.00.48 PM.png"
+    "Screenshot 2024-12-24 at 1.39.00 PM.png"
   ]
 }
